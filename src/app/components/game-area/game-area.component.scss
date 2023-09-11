@@ -1,0 +1,8 @@
+/* game-area.component.css */
+.game-container {
+    width: 800px;  /* This should match the width of your Phaser game configuration */
+    height: 600px; /* This should match the height of your Phaser game configuration */
+    margin:  auto; /* centering the game on the page */
+    position: relative; /* Useful if you want to position UI elements absolute to this container */
+ }
+ 

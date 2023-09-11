@@ -1,0 +1,13 @@
+diff --git a/node_modules/phaser/types/phaser.d.ts b/node_modules/phaser/types/phaser.d.ts
+index 20b12d8..98b9131 100644
+--- a/node_modules/phaser/types/phaser.d.ts
++++ b/node_modules/phaser/types/phaser.d.ts
+@@ -9763,7 +9763,7 @@ declare namespace Phaser {
+          * The parsed XML object is returned, or `null` if there was an error while parsing the data.
+          * @param data The XML source stored in a string.
+          */
+-        function ParseXML(data: string): DOMParser | ActiveXObject | null;
++        function ParseXML(data: string): DOMParser | any | null;
+ 
+         /**
+          * Attempts to remove the element from its parentNode in the DOM.
